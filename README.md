@@ -196,5 +196,8 @@ for col in df.select_dtypes(include="number").columns:
 ```
   <img width="366" height="862" alt="image" src="https://github.com/user-attachments/assets/4318ede6-3e46-4deb-a3c1-88ecf53632c1" />
 
+# interpretation:
+      Thus, the data cleaning process was successfully performed by reading the datasets, analyzing their information, handling missing values, removing duplicate records, and identifying outliers using the IQR and Z-score methods. The cleaned datasets were saved into separate CSV files, making the data more accurate, consistent, and suitable for further analysis.
+      
 # Result
           Thus we have cleaned the data and removed the outliers by detection using IQR and Z-score
